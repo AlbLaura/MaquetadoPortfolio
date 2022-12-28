@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Maquetado Angular</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css">
+    <!-- CSS general-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg">
+    <header>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark d-flex">
+            <a class="navbar-brand mr-auto" href="https://argentinaprograma.inti.gob.ar/" target="_blank">
+                <img src="assets/img/ar-prog_logo.png" class="img-fluid" alt="ap logo" style="width:100px;">
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item redes">
+                    <a class="nav-link"><i id="red_github" class="fa-brands fa-github fa-2xl"></i></a>
+                </li>
+                <li class="nav-item redes">
+                    <a class="nav-link"><i id="red_linkedin" class="fa-brands fa-linkedin fa-2xl"></i></a>
+                </li>
+                <li class="nav-item redes">
+                    <a class="nav-link"><i id="red_facebook" class="fa-brands fa-facebook fa-2xl"></i></a>
+                </li>
+                <li class="nav-item redes">
+                    <a class="nav-link"><i id="red_twitter" class="fa-brands fa-twitter fa-2xl"></i></a>
+                </li>
+            </ul>
+            <button id="login_button" class="btn btn-outline-secondary ml-4"><i class="fa-solid fa-user"></i> Login</button>
+        </nav>
+    </header>
+    <form action="#" method="post" >
+        <div class="card form-login">
+            <h2 class="card-header text-center">Login</h2>
+            <div class="card-body">
+            <div class="card"> <!-- FORM -->
+                <div class="card-body">
+                <form action="">
+                    <div class="row">
+                    <div class="col-12">
+                        <label for="email">Usuario:</label>
+                        <input type="text" class="form-control" id="user" name="usuario" placeholder="test1234" required>
+                        <br>
+                        <label for="pwd">Contraseña:</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="test1234" required>
+                        <br>
+                        <div class="d-flex">
+                            <button class="btn btn-outline-danger mr-auto" >Volver</button>
+                            <input type="submit" class="btn btn-success" value="Iniciar Sesion"></input>
+                        </div>
+                    </div>
+                    </div>
+                </form>
+                </div>
+            </div>
+            </div>
+        </div>
+    </form>
+    <footer>
+        <div id="footer" class="container-fluid bg-dark text-light fixed-bottom">
+            <div class="row">
+                <div class="col-12 text-center">Albornoz Laura Soledad | @ Argentina Programa 2022</div>
+                <div class="col-12 text-center">San Luis, Argentina</div>
+            </div>
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <i id="red_github" class="fa-brands fa-github fa-2xl footer"></i>
+                    <i id="red_linkedin" class="fa-brands fa-linkedin fa-2xl footer"></i>
+                    <i id="red_facebook" class="fa-brands fa-facebook fa-2xl footer"></i>
+                    <i id="red_twitter" class="fa-brands fa-twitter fa-2xl footer"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
